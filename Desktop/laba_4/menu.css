@@ -1,0 +1,38 @@
+.header li{
+display: inline-block;
+}
+.menu ul  {
+
+	width: 100%;
+	display: table;
+
+}
+.menu  li{
+    border-left: 1px solid black;
+
+    text-align: center; 
+    display: table-cell;
+
+    vertical-align: middle;
+}
+
+.menu a{
+	color: black;
+background: #669;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+	
+}
+.menu a:focus{
+	 display: block;
+color: red;
+		
+
+}
+
+a { cursor: url(img/cursor.png), pointer; }
+
+a[href="index.html"] {
+  color: #1f6053;
+}

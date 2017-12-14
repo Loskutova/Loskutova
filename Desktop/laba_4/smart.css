@@ -1,0 +1,9 @@
+ @media print { /* Стиль для печати */
+    BODY {
+     font-family: Times, 'Times New Roman', serif; /* Шрифт с засечками */
+    }
+    H1, H2, P {
+     color: black; /* Чёрный цвет текста */
+    }
+    P {size: 8.5in llin portrait}
+   }

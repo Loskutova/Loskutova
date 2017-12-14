@@ -1,0 +1,10 @@
+.foto_blok{
+	float: right;
+	padding: 0px 60px;
+}
+
+.foto_blok img{
+	    border-radius: 70%;
+	width: 320px;
+	height: 250px;
+}

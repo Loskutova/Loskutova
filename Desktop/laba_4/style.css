@@ -1,0 +1,90 @@
+
+@import "smart.css" print;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	 font-family:light ;
+	     color: #669;
+}
+
+play-during{
+	url("gravity.mp3");}
+
+.container{
+	width: 100%;
+}
+
+
+
+.personal_data{
+	overflow: hidden;
+}
+
+.personal_data ul{
+	font-size: 20px;
+	list-style: none;
+	padding: 10px;
+	line-height: 1.5;
+}
+ 
+.personal_data .left_info{
+	float: left;
+	font-style: italic;
+}
+
+.personal_data .information{
+	    padding-left: 140px;
+	float: left;
+	
+}
+
+.personal_data .information .fname{
+	font-weight: bold;
+}
+
+
+
+
+ .square {
+ 	font-size: 30px;
+ 	padding: 50px;
+ }
+
+textarea{
+  resize: none;
+
+}
+
+.about_ho{
+	padding: 10px;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 25px;
+}
+p{
+	text-align: center;
+	padding: 10px;
+
+}
+
+input{
+	color: grey;
+	border: 1px solid lightgrey;
+	padding: 20px;
+    border-radius: 60px;
+    font-size: 20px
+}
+
+textarea{
+  resize: none;
+
+	overflow: auto;
+
+
+}
